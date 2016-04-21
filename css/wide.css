@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#333;
+}
+
+#wrapper{
+	background:#fff;
+	width:1040px;
+	margin:0 auto;
+}
+
+.sticky-1,.sticky-2{
+	position:inherit;
+	margin:0;
+	padding:0;
+}
+
+
+
+/* -------------------------------------------------- 
+	design for 480px
+/* -------------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	 #wrapper{
+		 width:100%;
+	 }
+}
+
+
+/* -------------------------------------------------- 
+	design for 320px
+/* -------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+     #wrapper{
+		 width:100%;
+	 }
+}
+
+
+
